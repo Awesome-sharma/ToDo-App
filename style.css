@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(136, 133, 133));
+    font-family: cursive
+  }
+  #headTodo{
+    text-align: center;
+  }
+  #div1{
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #leftdiv{
+    flex: 1;
+    height: 100%;
+    width: 50%;
+  }
+  #rightdiv{
+    flex: 1;
+    height: 100%;
+    width: 50%;
+  }
+  .textbox{
+    height: 500px;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: xx-large;
+  }
+  
+  .containerStyle{
+    border : thin solid black;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(136, 133, 133));
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+  }
+  #checkbox{
+      align-items:center;
+  }
+  
